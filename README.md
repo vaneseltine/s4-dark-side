@@ -1,11 +1,12 @@
 # s4-dark-side
+
 Science of Science Summer School (S4) 2022 #project-dark-side
 
 ## Notebooks
 
-### 1_fetch.ipynb 
+### 1_fetch.ipynb
 
-Scrape retracted and up to 200 journal-year-matched-unretracted json records from OpenAlex 
+Scrape retracted and up to 200 journal-year-matched-unretracted json records from OpenAlex
 
 ### 2_collate.ipynb
 
@@ -30,3 +31,17 @@ Merge together the core dataframe with outcomes (disruptiveness and novelty) to 
 ### 6_modeling.ipynb
 
 Do some analysis
+
+## Data
+
+### ./data/shibayama
+
+output from reduce_shibayama_results.ipynb
+
+### ./data/core_df.feather
+
+output from 3_core_df.ipynb
+
+### ./data/analysis_df.feather
+
+output from 5_analysis_df.ipynb
